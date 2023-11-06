@@ -1071,22 +1071,25 @@
 
     // bxSlider
     $(function () {
-      $(".bxslider").bxSlider({
-        mode: "horizontal",
-        moveSlides: 1,
-        slideMargin: 0,
-        infiniteLoop: true,
-        minSlides: 1,
-        maxSlides: 1,
-        speed: 300,
-        auto: false,
-        autoControls: false,
-        autoControlsCombine: false,
-        stopAutoOnClick: true,
-        pager: false,
-        touchEnabled: false,
-        controls: false,
-        randomStart: true,
+      setTimeout(function () {
+        $(".bxslider").bxSlider({
+          mode: "horizontal",
+          moveSlides: 1,
+          slideMargin: 0,
+          infiniteLoop: true,
+          minSlides: 1,
+          maxSlides: 1,
+          speed: 300,
+          auto: false,
+          autoControls: false,
+          autoControlsCombine: false,
+          stopAutoOnClick: true,
+          pager: false,
+          touchEnabled: false,
+          controls: false,
+          randomStart: true,
+        });
+
       });
     });
 
