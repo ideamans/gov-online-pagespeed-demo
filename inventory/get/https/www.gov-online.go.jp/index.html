@@ -53,6 +53,70 @@
       document.head.appendChild(fs);
     })();
   </script> -->
+
+  <style>
+    .mainVisualSection .bxslider li {
+      display: none;
+    }
+
+    .mainVisualSection .bxslider li:first-child {
+      display: block;
+    }
+
+    .mainVisualSection .bx-wrapper .bx-viewport .bxslider li {
+      display: block;
+    }
+  </style>
+
+  <script>
+    (function () {
+      // スライダーの1枚目画像とDCLの両方が読み込まれたらスライダーを起動
+      class SliderControl {
+        isImageLoaded = false
+        isDomLoaded = false
+        isStarted = false
+        start() {
+          // 多重起動防止
+          if (this.isStarted) return;
+
+          // 画像とDOMの読み込みを待つ
+          if (!this.isImageLoaded) return;
+          if (!this.isDomLoaded) return;
+
+          this.isStarted = true;
+          setTimeout(function () {
+            $(".bxslider").bxSlider({
+              mode: "horizontal",
+              moveSlides: 1,
+              slideMargin: 0,
+              infiniteLoop: true,
+              minSlides: 1,
+              maxSlides: 1,
+              speed: 300,
+              auto: false,
+              autoControls: false,
+              autoControlsCombine: false,
+              stopAutoOnClick: true,
+              pager: false,
+              touchEnabled: false,
+              controls: false,
+              randomStart: true,
+            });
+          });
+        }
+        imageLoaded() {
+          this.isImageLoaded = true;
+          this.start();
+        }
+        domLoaded() {
+          this.isDomLoaded = true;
+          this.start();
+        }
+      }
+
+      window.sliderControl = new SliderControl();
+    })();
+  </script>
 </head>
 
 <body>
@@ -405,7 +469,7 @@
                 <figure class="photo">
                   <picture>
                     <source srcset="images/top/slider/bn_u_20221001_sl.webp" type="image/webp" width="800" height="450" />
-                    <img src="images/top/slider/bn_u_20221001_sl.jpg" alt="「登録したほうがいいの？」「どこで相談ができるの？」などインボイス制度について考えている様々な事業者" width="800" height="450" />
+                    <img src="images/top/slider/bn_u_20221001_sl.jpg" alt="「登録したほうがいいの？」「どこで相談ができるの？」などインボイス制度について考えている様々な事業者" width="800" height="450" onload="window.sliderControl.imageLoaded()" />
                   </picture>
                 </figure>
                 <div class="inner">
@@ -1060,26 +1124,8 @@
   <script>
     // bxSlider
     $(function () {
-      setTimeout(function () {
-        $(".bxslider").bxSlider({
-          mode: "horizontal",
-          moveSlides: 1,
-          slideMargin: 0,
-          infiniteLoop: true,
-          minSlides: 1,
-          maxSlides: 1,
-          speed: 300,
-          auto: false,
-          autoControls: false,
-          autoControlsCombine: false,
-          stopAutoOnClick: true,
-          pager: false,
-          touchEnabled: false,
-          controls: false,
-          randomStart: true,
-        });
-
-      });
+      // スライダー制御にDCLを通知
+      window.sliderControl.domLoaded();
     });
 
     // maintenanceSection & topMessageSection
