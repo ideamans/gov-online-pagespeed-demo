@@ -1,0 +1,625 @@
+/* CSS Document */
+
+/* ============================
+		Reset
+ ============================ */
+
+.commonAside .rankingList li {
+  margin-bottom: 40px;
+}
+
+/* ============================
+		mainVisualSection
+ ============================ */
+
+.mainVisualSection {
+}
+
+.mainVisualSection .bxslider {
+}
+
+.mainVisualSection .bxslider li {
+}
+
+.mainVisualSection .bxslider li > a {
+  display: block;
+}
+
+.mainVisualSection .bxslider li .photo {
+  margin-bottom: 10px;
+}
+
+.mainVisualSection .bxslider li .inner {
+  padding: 0 20px;
+  position: relative;
+}
+
+.mainVisualSection .bxslider li .newMark {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.mainVisualSection .bxslider li .newMark img {
+  width: 48px;
+  height: auto;
+}
+
+.mainVisualSection .bxslider li .title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1em;
+  padding-right: 50px;
+}
+
+.mainVisualSection .bxslider li .body {
+}
+
+.mainVisualSection .bxslider li .body span {
+  display: table-cell;
+  height: 45px;
+  vertical-align: middle;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+}
+
+.bx-wrapper {
+  margin-bottom: 30px;
+}
+
+.mainVisualSection .bxslider li .photo img {
+  width: 100%;
+  height: auto;
+}
+
+.mainVisualSection {
+  padding: 0;
+  margin-bottom: 0;
+  float: left;
+  width: 800px;
+}
+
+.mainVisualSection .bxslider li .photo {
+  /*box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);*/
+  background-color: #fff;
+  margin: 0 0 15px 0;
+}
+
+.mainVisualSection .bxslider li .photo img {
+  width: 800px;
+  height: auto;
+}
+
+.mainVisualSection .bxslider li .inner {
+  padding: 0;
+}
+
+.mainVisualSection .bxslider li .newMark {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin-left: 1em;
+}
+.mainVisualSection .bxslider li .newMark img {
+  width: 57px;
+  height: auto;
+}
+
+.mainVisualSection .bxslider li .title {
+  font-size: 2.4rem;
+}
+
+.mainVisualSection .bxslider li .body span {
+  display: table-cell;
+  height: 70px;
+}
+
+.bx-wrapper {
+  height: 600px;
+  margin-bottom: 60px;
+}
+
+/* ============================
+		bxslider
+ ============================ */
+
+.bx-wrapper {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: transparent;
+}
+
+/* ============================
+		commonToppageSection
+ ============================ */
+
+.commonToppageSection {
+  margin-bottom: 70px;
+}
+
+.commonToppageSection h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.commonToppageSection ul {
+}
+
+.commonToppageSection li {
+  margin-bottom: 45px;
+}
+
+.commonToppageSection a {
+  display: block;
+}
+
+.commonToppageSection .photo {
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+.commonToppageSection .photo.withBorder {
+}
+
+.commonToppageSection .photo img {
+  width: 100%;
+  height: auto;
+}
+.commonToppageSection .photo.withBorder img {
+  border: 1px solid #eee;
+}
+
+.commonToppageSection .table {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.commonToppageSection .cell {
+  display: table-cell;
+  vertical-align: top;
+  height: 80px;
+  padding: 0 20px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.commonToppageSection .newMark {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.commonToppageSection .newMark img {
+  width: 48px;
+  height: auto;
+}
+
+.commonToppageSection .title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 12px;
+}
+
+.commonToppageSection .title.withNewMark {
+  background-image: url("../images/mark_new001.svg");
+  background-repeat: no-repeat;
+  background-position: right top 2px;
+  background-size: 48px auto;
+  padding-right: 53px;
+}
+
+.commonToppageSection .body {
+  font-size: 1.6rem;
+  line-height: 1.35em;
+}
+
+.commonToppageSection .theme {
+  font-size: 1.4rem;
+  line-height: 1em;
+  text-align: right;
+}
+
+.commonToppageSection {
+  margin-bottom: 60px;
+}
+
+.commonToppageSection h2 {
+  font-size: 2.5rem;
+  margin-bottom: 45px;
+}
+
+.commonToppageSection ul {
+}
+
+.commonToppageSection li {
+  margin-bottom: 65px;
+  float: left;
+  width: calc(33.3333% - 44px);
+  margin-right: 65px;
+}
+.commonToppageSection li:nth-child(3n) {
+  margin-right: 0;
+}
+.commonToppageSection li:nth-child(3n + 1) {
+  clear: both;
+}
+
+.commonToppageSection .newMark {
+  right: 0;
+}
+.commonToppageSection .newMark img {
+  width: 48px;
+  height: auto;
+}
+
+.commonToppageSection .cell {
+  height: 100px;
+}
+
+/* ============================
+		pickupSection
+ ============================ */
+
+.pickupSection {
+  background-color: #f5f5f5;
+  margin-bottom: 70px;
+  padding: 25px 0;
+}
+
+.pickupSection ul {
+}
+
+.pickupSection li {
+  background-color: #fff;
+  margin-bottom: 45px;
+  padding: 10px;
+  position: relative;
+}
+
+.pickupSection li:last-child {
+  margin-bottom: 25px;
+}
+
+.pickupSection a {
+  display: block;
+}
+
+.pickupSection .photo {
+  float: left;
+  width: 140px;
+}
+.pickupSection .photo.withBorder {
+}
+
+.pickupSection .photo img {
+  width: 100%;
+  height: auto;
+}
+.pickupSection .photo.withBorder img {
+  border: 1px solid #eee;
+}
+
+.pickupSection .table {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.pickupSection .cell {
+  display: table-cell;
+  vertical-align: top;
+  height: 50px;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.pickupSection .title {
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 12px;
+  padding-right: 10px;
+}
+
+.pickupSection .body {
+  font-size: 1.6rem;
+  line-height: 1.35em;
+}
+
+.pickupSection .theme {
+  font-size: 1.4rem;
+  line-height: 1em;
+  text-align: right;
+}
+
+.pickupSection {
+  margin-bottom: 30px;
+  padding: 60px 0 0 0;
+}
+
+.pickupSection .smartContainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.pickupSection li {
+  margin-bottom: 65px;
+  padding: 0px;
+  float: left;
+  width: calc(25% - 45px);
+  margin-right: 60px;
+}
+.pickupSection li:nth-child(4n) {
+  margin-right: 0;
+}
+.pickupSection li:nth-child(4n + 1) {
+  clear: both;
+}
+
+.pickupSection .photo {
+  float: none;
+  width: 100%;
+}
+
+.pickupSection .table {
+  box-sizing: border-box;
+  margin: 0 10px;
+  width: calc(100% - 20px);
+}
+
+.pickupSection .cell {
+  height: 80px;
+  padding: 0;
+}
+
+.pickupSection .title {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 5px;
+  padding-right: 0;
+}
+
+.pickupSection .theme {
+  padding: 5px 10px 10px 0;
+}
+
+/* ============================
+		nettvEmbedSection
+ ============================ */
+
+.nettvEmbedSection {
+  background-color: #f5f5f5;
+  padding: 15px 0;
+  margin-bottom: 40px;
+}
+
+.nettvEmbedSection .smartContainer {
+  background-color: #fff;
+  padding: 55px 15px;
+}
+
+.nettvEmbedSection .nettvLogo {
+  margin-bottom: 25px;
+}
+
+.nettvEmbedSection .nettvLogo .title {
+  text-align: center;
+}
+.nettvEmbedSection .nettvLogo .title img {
+  width: 275px;
+  height: auto;
+}
+
+.nettvEmbedSection .thum {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.nettvEmbedSection .title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.nettvEmbedSection {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 0;
+  float: right;
+  width: 360px;
+  margin-top: 20px;
+  display: table;
+  box-sizing: border-box;
+}
+
+.nettvEmbedSection .smartContainer {
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  height: 410px;
+}
+
+.nettvEmbedSection .nettvLogo {
+  margin-bottom: 20px;
+}
+
+.nettvEmbedSection .nettvLogo .title img {
+  width: 100%;
+  height: auto;
+}
+
+.nettvEmbedSection .thum {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.nettvEmbedSection .title {
+  font-size: 1.6rem;
+}
+
+/* ============================
+		topMessageSection
+ ============================ */
+
+.topMessageSection {
+  padding: 15px 0 25px 0;
+}
+
+.topMessageSection .smartContainer {
+  border-top: 6px solid #990033;
+  box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 30px;
+  width: 680px;
+  margin: 0 auto;
+}
+
+.topMessageSection h2 {
+  font-weight: bold;
+  color: #990033;
+  padding-right: 70px;
+  font-size: 2.4rem;
+  line-height: 1em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.topMessageSection .body {
+  font-size: 1.6rem;
+  line-height: 1.35em;
+  color: #990033;
+}
+
+.topMessageSection .note {
+  font-size: 1.6rem;
+  line-height: 1.35em;
+  color: #990033;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.topMessageSection .note span {
+  display: inline-block;
+  width: 1em;
+  font-size: 1.6rem;
+  line-height: 1.35em;
+  color: #990033;
+  padding-left: 0em;
+  text-indent: 0em;
+}
+
+.topMessageSection .closeTopMessage {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #990033;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2.5em;
+}
+
+/* ============================
+		maintenanceSection
+ ============================ */
+
+.maintenanceSection {
+  padding: 20px 0 30px 0;
+}
+
+.maintenanceSection .smartContainer {
+  border-top: 6px solid #5e627b;
+  box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 30px;
+  width: 680px;
+  margin: 0 auto;
+}
+
+.maintenanceSection h2 {
+  font-weight: bold;
+  color: #5e627b;
+  padding-right: 70px;
+  font-size: 2.4rem;
+  line-height: 1em;
+  margin-bottom: 30px;
+}
+
+.maintenanceSection .body {
+  font-size: 1.6rem;
+  line-height: 1.35em;
+  color: #5e627b;
+}
+
+.maintenanceSection .note {
+  font-size: 1.6rem;
+  line-height: 1.35em;
+  color: #5e627b;
+  padding-left: 0.6em;
+  text-indent: -0.6em;
+}
+
+.maintenanceSection .note span {
+  display: inline-block;
+  width: 1em;
+  font-size: 1.6rem;
+  line-height: 1.35em;
+  color: #5e627b;
+  padding-left: 0em;
+  text-indent: 0em;
+}
+
+.maintenanceSection .closeMaint {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #5e627b;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2.5em;
+}
+
+/* ============================
+		other
+ ============================ */
+
+/* for SP */
+@media screen and (max-width: 767px) {
+}
+
+/* for TB (Vertical) */
+@media screen and (max-width: 960px) and (min-width: 768px) {
+}
+
+/* for PC (XVGA) */
+@media screen and (max-width: 1200px) and (min-width: 961px) {
+}
+
+/* for PC */
+@media screen and (min-width: 1201px) {
+}

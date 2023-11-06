@@ -1,0 +1,770 @@
+/* CSS Document */
+
+/*	============================
+	crumb
+	============================ */
+
+.crumb {
+  display: block;
+  padding: 30px 0 40px 0;
+}
+
+.crumb li {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 1em;
+}
+.crumb li::before {
+  content: "＞";
+  padding-right: 0.5em;
+}
+.crumb li:first-child::before {
+  content: "";
+  padding-right: 0;
+}
+
+.crumb li a {
+  font-size: 1.4rem;
+  line-height: 1em;
+  color: #0000ff;
+}
+
+/* ============================
+		footer
+ ============================ */
+
+/* footerMain */
+
+#pageTop {
+  display: none;
+}
+
+footer {
+}
+
+footer .smartContainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+footer .footerSiteMap {
+  display: block;
+  padding: 50px 0 120px 0;
+}
+
+footer .footerSiteMap .footerMapList {
+}
+
+footer .footerSiteMap .footerMapList > li {
+  float: left;
+  width: 270px;
+  margin-right: 70px;
+}
+
+footer .footerSiteMap .footerMapList > li:last-child {
+  margin-right: 0;
+  width: 520px;
+}
+
+footer .footerSiteMap .footerMapList > li:last-child > ul {
+  float: left;
+  width: 50%;
+}
+
+footer .footerSiteMap .footerMapList > li,
+footer .footerSiteMap .footerMapList > li > a {
+}
+
+footer .footerSiteMap .footerMapList > li > a {
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: block;
+  line-height: 1em;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+footer .footerSiteMap .footerMapList > li > ul > li > a {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1.75em;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+}
+
+/* footerMain */
+
+footer .footerMain {
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+footer .footerMain .footerMainList {
+  margin-bottom: 50px;
+}
+
+footer .footerMain .footerMainList li {
+}
+
+footer .footerMain .footerMainList li a {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2em;
+  color: #000;
+  background-image: url("../images/link_makr002.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+}
+
+footer .footerMain .name {
+  font-size: 1.6rem;
+  color: #000;
+  line-height: 1em;
+  margin-bottom: 15px;
+}
+
+footer .footerMain .number {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 1em;
+  color: #000;
+  margin-top: 10px;
+}
+
+footer .footerMain .address {
+  font-size: 1.5rem;
+  line-height: 1.55em;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+footer .footerMain .footerMainList {
+  margin-bottom: 0;
+  float: right;
+  width: calc(100% - 554px);
+}
+
+footer .footerMain .footerMainList li {
+  float: left;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+footer .footerMain .footerMainList li:nth-child(1),
+footer .footerMain .footerMainList li:nth-child(4) {
+  clear: both;
+  width: 240px;
+}
+footer .footerMain .footerMainList li:nth-child(2),
+footer .footerMain .footerMainList li:nth-child(5) {
+  width: 220px;
+}
+footer .footerMain .footerMainList li:nth-child(3),
+footer .footerMain .footerMainList li:nth-child(6) {
+  width: 180px;
+}
+
+footer .footerMain .footerMainList li a {
+  line-height: 1em;
+  color: #000;
+  font-size: 1.4rem;
+}
+
+footer .footerMain .footerMainOther {
+  float: left;
+  width: 554px;
+}
+
+footer .footerMain .name {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+footer .footerMain .number {
+  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 1em;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+footer .footerMain .address {
+  font-size: 1.4rem;
+  line-height: 1em;
+  margin-bottom: 45px;
+}
+
+footer .footerMain .copyright {
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+}
+
+footer .footerMain .copyright p {
+  color: #000;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1em;
+}
+
+/* ============================
+		cse-search-box-input
+ ============================ */
+
+.cse-search-box-input,
+#cse-search-box-input {
+  display: none;
+}
+
+/* ============================
+		aside
+ ============================ */
+
+aside {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+/* commonAside */
+
+.commonAside {
+  position: relative;
+}
+
+.commonAside .smartContainer {
+  padding: 30px 0;
+  border-top: 4px solid #e1e1e1;
+}
+
+.postAsideBlock + .accessRankingAside .smartContainer {
+  border-top: none;
+}
+
+.commonAside .rankingTitle {
+  background-image: url("../images/icon_ranking001.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 40px auto;
+  padding-left: 52px;
+  margin-bottom: 30px;
+}
+
+.commonAside h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 5px;
+}
+
+.asideSecondBlock .commonAside h2 {
+  margin-bottom: 30px;
+}
+
+.otherAside .smartContainer h2 {
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+.otherAside .smartContainer h2:first-child {
+  margin-top: 0;
+}
+
+.otherAside h2.otherNews {
+  background-image: url("../images/icon_other001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 23px;
+  line-height: 25px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.commonAside .update {
+  font-size: 1.3rem;
+  line-height: 1em;
+}
+
+.koshinAside .update {
+  margin-bottom: 30px;
+}
+
+.commonAside .rankingList li {
+  margin-bottom: 40px;
+}
+
+.otherPostAside .postList li {
+  margin-bottom: 20px;
+}
+
+.otherPostAside .postList a,
+.commonAside .rankingList a {
+  display: block;
+}
+
+.otherPostAside .postList .thumb,
+.commonAside .rankingList .thumb {
+  float: left;
+  width: 70px;
+}
+.otherPostAside .postList .thumb img,
+.commonAside .rankingList .thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.otherPostAside .postList .body,
+.commonAside .rankingList .body {
+  float: right;
+  width: calc(100% - 80px);
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}
+
+.otherPostAside .postList .body span {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 1.3em;
+}
+
+/* koshinList */
+
+.commonAside .newslist,
+.commonAside .koshinList {
+}
+
+.commonAside .newslist li,
+.commonAside .koshinList li {
+  margin-bottom: 25px;
+}
+
+.commonAside .newslist a,
+.commonAside .koshinList a {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}
+
+/* otherList */
+
+.commonAside .otherList {
+}
+
+.commonAside .otherList li {
+  margin-bottom: 1px;
+}
+
+.commonAside .otherList a {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.75em;
+}
+
+/* readmore */
+
+.commonAside .readmore {
+}
+
+.commonAside .readmore a.btn {
+  display: inline-block;
+  text-align: right;
+}
+
+.commonAside .readmore a.btn span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+}
+
+.commonAside .readmore a.btn_close {
+  display: inline-block;
+  text-align: right;
+}
+
+.commonAside .readmore a.btn_close span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+}
+
+/* ministryAside */
+
+.ministryAside .moreLink {
+  float: right;
+  position: relative;
+  top: -1.5em;
+}
+
+.ministryAside .moreLink a {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+}
+
+.ministryAside .update {
+  margin-bottom: 30px;
+}
+
+.ministryAside h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.asideSecondBlock .commonAside.ministryAside h2 {
+  margin-bottom: 0;
+}
+
+/* otherAside */
+.otherAside .moreLink {
+  float: right;
+}
+
+.otherAside .moreLink a {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+  position: relative;
+  top: -5px;
+}
+
+/* otherPostAside */
+
+.postAsideBlock {
+  margin: 0 15px;
+  border: 4px solid #e1e1e1;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+.otherPostAside h2 {
+  margin-bottom: 10px;
+}
+
+.otherPostAside .moreLink {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+
+.otherPostAside .moreLink a {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+}
+
+aside {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.d_colPageMain aside {
+  display: none;
+  float: right;
+  width: 290px;
+  margin: 0;
+}
+
+/* commonAside */
+
+.asideFirstBlock,
+.asideSecondBlock {
+  display: table;
+  margin-bottom: 25px;
+}
+
+.d_colPageMain .asideFirstBlock,
+.d_colPageMain .asideSecondBlock {
+  display: block;
+}
+
+.commonAside {
+  display: table-cell;
+  vertical-align: top;
+  width: 340px;
+  padding-right: 90px;
+  background-image: url("../images/border001.gif");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.commonAside:last-child {
+  padding-right: 0;
+}
+
+.postAsideBlock + .accessRankingAside {
+  /*background-image: none;*/
+}
+
+.d_colPageMain .commonAside {
+  display: block;
+  width: 100%;
+  padding-right: 0px;
+  margin-bottom: 30px;
+}
+
+.commonAside .smartContainer {
+  padding: 30px 0 0 0;
+  border-top: none;
+}
+
+.commonAside .rankingTitle {
+  background-image: url("../images/icon_ranking001.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 40px auto;
+  padding-left: 52px;
+  margin-bottom: 30px;
+}
+
+.commonAside h2 {
+  line-height: 1em;
+  margin-bottom: 5px;
+}
+
+.asideSecondBlock .commonAside h2 {
+  margin-bottom: 30px;
+}
+
+.otherAside .smartContainer h2 {
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+.otherAside .smartContainer h2:first-child {
+  margin-top: 0;
+}
+
+/* otherPostAside */
+
+.postAsideBlock {
+  margin: 0;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+}
+
+.otherPostAside {
+  margin-bottom: 30px;
+}
+.postAsideBlock .otherPostAside:last-child {
+  margin-bottom: 0;
+}
+
+.otherPostAside h2 {
+  margin-bottom: 10px;
+}
+
+.otherAside h2.otherNews {
+  background-image: url("../images/icon_other001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 23px;
+  line-height: 25px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.commonAside .update {
+  font-size: 1.3rem;
+  line-height: 1em;
+}
+
+.koshinAside .update {
+  margin-bottom: 30px;
+}
+
+.commonAside .rankingList li {
+  margin-bottom: 0px;
+}
+
+.commonAside .rankingList a {
+  display: block;
+}
+
+.commonAside .rankingList .thumb {
+  float: left;
+  width: 70px;
+}
+.commonAside .rankingList .thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.commonAside .rankingList .body {
+  float: right;
+  width: calc(100% - 80px);
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}
+
+/* koshinList */
+
+.commonAside .newslist,
+.commonAside .koshinList {
+}
+
+.commonAside .newslist li,
+.commonAside .koshinList li {
+  margin-bottom: 25px;
+}
+
+.commonAside .newslist a,
+.commonAside .koshinList a {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}
+
+/* otherList */
+
+.commonAside .otherList {
+}
+
+.commonAside .otherList li {
+  margin-bottom: 1px;
+}
+
+.commonAside .otherList a {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.75em;
+}
+
+/* readmore */
+
+.commonAside .readmore {
+}
+
+.commonAside .readmore a.btn {
+  display: inline-block;
+  text-align: right;
+}
+
+.commonAside .readmore a.btn span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+}
+
+.commonAside .readmore a.btn_close {
+  display: inline-block;
+  text-align: right;
+}
+
+.commonAside .readmore a.btn_close span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+}
+
+/* ministryAside */
+
+.ministryAside .moreLink {
+  float: right;
+  position: relative;
+  top: -1.5em;
+}
+
+.ministryAside .moreLink a {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+}
+
+.ministryAside .update {
+  margin-bottom: 30px;
+}
+
+.ministryAside h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.asideSecondBlock .commonAside.ministryAside h2 {
+  margin-bottom: 0;
+}
+
+/* otherAside */
+.otherAside .moreLink {
+  float: right;
+}
+
+.otherAside .moreLink a {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-image: url("../images/link_makr001.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+  position: relative;
+  top: -5px;
+}
+
+.commonAside .postList .body span {
+  font-size: 1.2rem;
+}
+
+.otherPostAside .postList li {
+  margin-bottom: 10px;
+}
+
+/*	============================
+cse-search-box-input
+============================ */
+
+header .googleSearchBox {
+  display: none;
+}
+
+/* ============================
+		other
+ ============================ */
+
+/* for SP */
+@media screen and (max-width: 767px) {
+}
+
+/* for TB (Vertical) */
+@media screen and (max-width: 960px) and (min-width: 768px) {
+}
+
+/* for PC (XVGA) */
+@media screen and (max-width: 1200px) and (min-width: 961px) {
+}
+
+/* for PC */
+@media screen and (min-width: 1201px) {
+}

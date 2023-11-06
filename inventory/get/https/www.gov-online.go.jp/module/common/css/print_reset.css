@@ -1,0 +1,346 @@
+/* CSS Document */
+
+/* ============================
+		Reset
+ ============================ */
+
+:root {
+  font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-size: 62.5%;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  scroll-behavior: smooth;
+  min-height: 2000px;
+}
+
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 1.6rem;
+  /*line-height:1.0em;*/
+  line-height: 1.5em;
+  vertical-align: baseline;
+  background: transparent;
+  font-style: normal;
+  /*font-weight: normal;*/
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #fff;
+  font-size: 1.6rem;
+  line-height: 1em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-text-size-adjust: 100%;
+  font-feature-settings: "palt" 1;
+  -webkit-print-color-adjust: exact;
+  overflow-x: hidden;
+}
+
+@media print {
+  body {
+    zoom: 0.68;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+.container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*:focus {
+  outline: solid #08f;
+}
+
+input[type="text"] {
+  font-size: 1.6rem !important;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+a:hover img {
+  opacity: 0.8;
+}
+
+li {
+  list-style: none;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
+
+.clear {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.skipmenu {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 0;
+}
+
+/* skip link */
+
+#blockskip a {
+  text-align: center;
+  color: #fff;
+  background: #666;
+  display: block;
+  height: 1px;
+  padding: 0;
+  text-decoration: none;
+  position: relative;
+}
+#blockskip a:focus {
+  height: auto;
+  padding: 10px;
+  z-index: 100000000;
+}
+
+/*	---------------------------
+   		display control
+	--------------------------- */
+
+.contents {
+  width: 1200px;
+}
+.pcDisplayNone {
+  display: none;
+}
+.d_colPageMain main {
+  margin-top: 0px;
+  float: none;
+  width: 1200px;
+}
+.container {
+  width: 1200px;
+}
+#h_top {
+  display: none;
+}
+.pcDisplayOn {
+  display: inline;
+}
+
+/* ============================
+		header
+ ============================ */
+
+header {
+  position: relative;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 110px;
+  background-color: #fff;
+}
+
+/* snsList */
+header .snsList {
+  display: none;
+}
+
+/* headerFinder */
+
+header .headerFinder {
+  display: none;
+}
+
+header .container {
+  height: 110px;
+}
+
+/* headerLogo */
+header .headerLogo {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+header .headerLogo img {
+  width: 232px;
+  height: auto;
+}
+
+/* otherList */
+header .otherList {
+  display: none;
+}
+
+/* ptspkToolList */
+header .ptspkToolList {
+  display: none;
+}
+
+/* languageList */
+header .languageList {
+  display: none;
+}
+
+/* textsizer */
+header .textsizer {
+  display: none;
+}
+
+header .otherMenu,
+header .topNavi,
+header .nettvLink {
+  display: none;
+}
+
+/* ============================
+		megamenu
+ ============================ */
+
+.navWrap {
+  display: none;
+}
+
+.headerFixed,
+.fixed {
+  display: none;
+}
+
+.menu-container {
+  display: none;
+}
+
+.megaMenu {
+  display: none;
+}
+
+/* ============================
+		other
+ ============================ */
+
+#modal {
+  display: none;
+}

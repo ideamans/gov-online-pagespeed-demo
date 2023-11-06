@@ -1,0 +1,13 @@
+{
+  "name": "gov-online-5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pagespeed-quest": "^0.1.1"
+  },
+  "scripts": {
+    "playback": "psq lighthouse replay -c 8",
+    "proxy": "psq proxy -p 8000"
+  }
+}

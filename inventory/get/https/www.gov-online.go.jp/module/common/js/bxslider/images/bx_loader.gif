@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <!-- InstanceBegin template="/Templates/Basic_d_col.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="copyright" content="(c) Cabinet Office, Government of Japan." />
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <meta
+      name="Description"
+      content="政府広報オンラインは、内閣府大臣官房政府広報室が運営する「国の行政情報に関するポータルサイト」です。政府の「政策課題」「施策・制度」「取り組み」の中から、国民生活に身近な話題や政府の重要課題をピックアップし、記事や動画などで、国民の皆様に分かりやすく伝えることを目的としています。"
+    />
+    <meta
+      name="Keywords"
+      content="お探しのページが見つかりません,内閣府,政府,政府広報,広聴,ポータル,省庁,お役立ち,国民生活"
+    />
+
+    <title>お探しのページが見つかりません | 政府広報オンライン</title>
+    <!-- InstanceEndEditable -->
+    <!--ウェブクリップアイコン2点の読み込み-->
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="https://www.gov-online.go.jp/module/common/images/webclip/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.gov-online.go.jp/module/common/images/webclip/icon-192x192.png"
+    />
+
+    <!--原則<header>内にcssを、<footer>以下にjsに記述-->
+    <link rel="stylesheet" href="https://www.gov-online.go.jp/module/common/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.gov-online.go.jp/module/common/js/meanmenu/meanmenu.min.css?date=202211091015"
+    />
+    <link rel="stylesheet" href="https://www.gov-online.go.jp/module/common/js/modaal/modaal.min.css" />
+    <link rel="stylesheet" href="https://www.gov-online.go.jp/module/common/css/style.css" />
+    <link rel="stylesheet" href="https://www.gov-online.go.jp/module/common/css/second.css" />
+
+    <link
+      href="https://www.gov-online.go.jp/module/common/css/print_reset.css"
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+    />
+    <link
+      href="https://www.gov-online.go.jp/module/common/css/print_style.css"
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+    />
+    <link
+      href="https://www.gov-online.go.jp/module/common/css/print_second.css"
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+    />
+    <!-- InstanceBeginEditable name="head" -->
+
+    <!-- 
+#main h2,
+#main section p,
+#main section ul li {font-size:120%;}
+-->
+    <!-- InstanceEndEditable -->
+    <script>
+      (function () {
+        var fs = document.createElement("script");
+        fs.setAttribute("src", "https://cdn.facil-iti.app/tags/faciliti-tag.min.js");
+        fs.dataset.applicationIdentifier = "ac6b5f65-1649-4977-a62e-62fa8f510d4f";
+        document.head.appendChild(fs);
+      })();
+    </script>
+  </head>
+  <body>
+    <!--facebookソーシャルプラグイン用-->
+    <script>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+    <noscript
+      >このページはJavaScriptを使用しています。ご使用中のブラウザはJavaScriptが無効になっているか、JavaScriptに対応していません。JavaScriptを有効にするか、JavaScriptが使用可能なブラウザでアクセスして下さい。</noscript
+    ><!-- #BeginLibraryItem "/Library/HONBUN.lbi" -->
+    <div id="gotoPageTop"></div>
+    <div id="blockskip"><a href="#mainContents" id="navCateTopCloser">このページの本文へ移動</a></div>
+    <!-- #EndLibraryItem -->
+    <div id="contents" class="contents">
+      <header id="header">
+        <!-- #BeginLibraryItem "/Library/Header.lbi" -->
+        <div class="container">
+          <!-- hamburger menu -->
+          <div id="h_top" class="fadeLate">
+            <div class="h_nav" id="h_nav">
+              <nav id="gNav">
+                <!--div id="navCateTopCloser" tabindex="0"></div-->
+                <ul class="nav" aria-hidden="true" id="h_navCateTop001">
+                  <!--ul class="nav" tabindex="-1"-->
+                  <!--li class="notMark" tabindex="0" id="navCateList"-->
+                  <li class="notMark" id="navCateList">
+                    <a href="/list/" id="navCateList001" aria-expanded="false" aria-controls="navCate01"
+                      >知りたい分野で探す<i class="fa fa-angle-down" id="navCateListF001"></i
+                    ></a>
+                    <ul class="sub-menu" aria-hidden="true" id="navCate01">
+                      <li class="notMark" id="navGroup01-01">
+                        <a
+                          href="/list/ct1_syohi_kankyho_jinken.html"
+                          id="navCateListSub01"
+                          aria-expanded="false"
+                          aria-controls="navCate01-01"
+                          >消費者・環境・人権<i class="fa fa-angle-down" id="navCateListSubF01"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate01-01">
+                          <li><a href="/list/ct2_syohi_seikatsu.html">消費生活</a></li>
+                          <li><a href="/list/ct2_kankyo_energy.html">環境・エネルギー</a></li>
+                          <li><a href="/list/ct2_bunka_leisure.html">文化・レジャー</a></li>
+                          <li><a href="/list/ct2_troublekaiketsu.html">トラブル解決</a></li>
+                          <li><a href="/list/ct2_jinken.html">人権</a></li>
+                          <li><a href="/list/ct2_kyufu_josei_syohi_kankyho_jinken.html">給付・助成</a></li>
+                        </ul>
+                      </li>
+                      <li class="notMark" id="navGroup01-02">
+                        <a
+                          href="/list/ct1_anzen_bohan.html"
+                          aria-expanded="false"
+                          id="navCateListSub02"
+                          aria-controls="navCate01-02"
+                          >安全・防犯<i class="fa fa-angle-down"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate01-02">
+                          <li><a href="/list/ct2_seihinanzen.html">製品安全</a></li>
+                          <li><a href="/list/ct2_kotsuanzen.html">交通安全</a></li>
+                          <li><a href="/list/ct2_bohan.html">防犯</a></li>
+                          <li><a href="/list/ct2_kasai_kyukyu.html">火災・救急</a></li>
+                          <li><a href="/list/ct2_kokuminhogo.html">国民保護</a></li>
+                          <li><a href="/list/ct2_kyufu_josei_anzen_bohan.html">給付・助成</a></li>
+                        </ul>
+                      </li>
+                      <li class="notMark" id="navGroup01-03">
+                        <a
+                          href="/list/ct1_kosodate_kyoiku.html"
+                          id="navCateListSub03"
+                          aria-expanded="false"
+                          aria-controls="navCate01-03"
+                          >子育て・教育<i class="fa fa-angle-down"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate01-03">
+                          <li><a href="/list/ct2_ikuji.html">育児（乳児）</a></li>
+                          <li><a href="/list/ct2_kosodate.html">子育て（児童・青少年）</a></li>
+                          <li><a href="/list/ct2_kyoiku.html">教育</a></li>
+                          <li><a href="/list/ct2_kyufu_josei_kosodate_kyoiku.html">給付・助成</a></li>
+                        </ul>
+                      </li>
+                      <li class="notMark" id="navGroup01-04">
+                        <a
+                          href="/list/ct1_kenko_iryo_fukushikaigo.html"
+                          id="navCateListSub04"
+                          aria-expanded="false"
+                          aria-controls="navCate01-04"
+                          >健康・医療・福祉介護<i class="fa fa-angle-down"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate01-04">
+                          <li><a href="/list/ct2_kenko.html">健康</a></li>
+                          <li><a href="/list/ct2_iryo.html">医療</a></li>
+                          <li><a href="/list/ct2_fukushi_kaigo.html">福祉・介護等</a></li>
+                          <li><a href="/list/ct2_kyufu_josei_kenko_iryo_fukushikaigo.html">給付・助成</a></li>
+                        </ul>
+                      </li>
+                      <li class="notMark" id="navGroup01-05">
+                        <a
+                          href="/list/ct1_saigai_fukko.html"
+                          id="navCateListSub05"
+                          aria-expanded="false"
+                          aria-controls="navCate01-05"
+                          >災害・復興<i class="fa fa-angle-down"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate01-05">
+                          <li><a href="/list/ct2_bosai_gensai.html">防災・減災</a></li>
+                          <li><a href="/list/ct2_fukkyu_fukko.html">復旧・復興</a></li>
+                          <li><a href="/list/ct2_kyufu_josei_saigai_fukko.html">給付・助成</a></li>
+                        </ul>
+                      </li>
+                      <li class="notMark" id="navGroup01-06">
+                        <a
+                          href="/list/ct1_syaho_zei.html"
+                          id="navCateListSub06"
+                          aria-expanded="false"
+                          aria-controls="navCate01-06"
+                          >社会保障・税<i class="fa fa-angle-down"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate01-06">
+                          <li><a href="/list/ct2_nenkin.html">年金</a></li>
+                          <li><a href="/list/ct2_mynumber.html">マイナンバー</a></li>
+                          <li><a href="/list/ct2_zei.html">税</a></li>
+                          <li><a href="/list/ct2_kyufu_josei_syaho_zei.html">給付・助成</a></li>
+                        </ul>
+                      </li>
+                      <li class="notMark" id="navGroup01-07">
+                        <a
+                          href="/list/ct1_kokusai_toko_kanko.html"
+                          id="navCateListSub07"
+                          aria-expanded="false"
+                          aria-controls="navCate01-07"
+                          >国際・渡航・観光<i class="fa fa-angle-down"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate01-07">
+                          <li><a href="/list/ct2_kokusai.html">国際</a></li>
+                          <li><a href="/list/ct2_toko.html">渡航</a></li>
+                          <li><a href="/list/ct2_kanko.html">観光</a></li>
+                        </ul>
+                      </li>
+                      <li class="notMark" id="navGroup01-08">
+                        <a
+                          href="/list/ct1_keizai_keiei_rodo.html"
+                          id="navCateListSub08"
+                          aria-expanded="false"
+                          aria-controls="navCate01-08"
+                          >経済・経営・労働<i class="fa fa-angle-down"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate01-08">
+                          <li><a href="/list/ct2_keizai.html">経済</a></li>
+                          <li><a href="/list/ct2_keiei.html">経営</a></li>
+                          <li><a href="/list/ct2_rodo.html">労働</a></li>
+                          <li><a href="/list/ct2_kyufu_josei_yushi_keizai_keiei_rodo.html">給付・助成・融資等</a></li>
+                        </ul>
+                      </li>
+                      <li id="navGroup01-09"><a href="/list/index.html" id="navCateListSub09">全て</a></li>
+                    </ul>
+                  </li>
+                  <li class="notMark" id="navGroup02">
+                    <a href="#" id="navCateWho" aria-expanded="false" aria-controls="navCate02-01"
+                      >このようなかたに<i class="fa fa-angle-down"></i
+                    ></a>
+                    <ul class="sub-menu" aria-hidden="true" id="navCate02-01">
+                      <li><a href="/list/ct1_syogai_noarukata.html">障害のあるかた</a></li>
+                      <li><a href="/list/ct1_kosodatechu_nokata.html">子育て中のかた</a></li>
+                      <li><a href="/list/ct1_seito_gakusei_nokata.html">生徒・学生のかた</a></li>
+                      <li><a href="/list/ct1_gaikoku_nokata.html">外国のかた</a></li>
+                      <li><a href="/list/ct1_hataraiteiru_kata.html">働いているかた</a></li>
+                      <li><a href="/list/ct1_hatarakitai_kata.html">働きたいかた</a></li>
+                      <li><a href="/list/ct1_jigyosha_nokata.html">事業者のかた</a></li>
+                    </ul>
+                  </li>
+                  <li class="other notMark" id="navGroup03">
+                    <a href="#" id="navCateOther" aria-expanded="false" aria-controls="navCate03-01"
+                      >コンテンツで探す<i class="fa fa-angle-down"></i
+                    ></a>
+                    <ul class="sub-menu" aria-hidden="true" id="navCate03-01">
+                      <li id="navGroup03-01"><a href="/tokusyu/index.html">特集・キャンペーンサイト</a></li>
+                      <li class="navCateOtherSub99" id="navCateOtherSubPrev01">
+                        <a href="/useful/index.html">暮らしに役立つ情報</a>
+                      </li>
+                      <li class="notMark" id="navGroup03-03">
+                        <a
+                          href="/pr/index.html"
+                          id="navCateOtherSub01"
+                          aria-expanded="false"
+                          aria-controls="navCate03-01-01"
+                          >メディア別の政府広報<i class="fa fa-angle-down"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate03-01-01">
+                          <li><a href="/pr/media/cm/index.html">スポットCM</a></li>
+                          <li><a href="/pr/media/paper/index.html">新聞広告</a></li>
+                          <li><a href="/pr/media/tv/index.html">テレビ番組</a></li>
+                          <li><a href="/pr/media/radio/index.html">ラジオ番組</a></li>
+                          <li><a href="/pr/media/magazine/index.html">雑誌広告</a></li>
+                          <li><a href="/pr/media/cd/index.html">音声広報CD</a></li>
+                          <li><a href="/pr/media/katsuji/index.html">点字・大活字広報誌</a></li>
+                          <li><a href="/eng/publicity/book/hlj/index.html">海外広報誌</a></li>
+                        </ul>
+                      </li>
+                      <li class="notMark" id="navGroup03-04">
+                        <a
+                          href="/info/index.html"
+                          id="navCateOtherSub02"
+                          aria-expanded="false"
+                          aria-controls="navCate03-02"
+                          >各府省の新着情報<i class="fa fa-angle-down"></i
+                        ></a>
+                        <ul class="sub-menu" aria-hidden="true" id="navCate03-02">
+                          <li><a href="/info/news/index.html">トピックス</a></li>
+                          <li><a href="/info/event/index.html">イベント・募集</a></li>
+                        </ul>
+                      </li>
+                      <li id="navCateOtherSub03"><a href="/kurashi/index.html">相談窓口・Q＆A</a></li>
+                      <li><a href="/data_room/calendar/index.html">月間・週間</a></li>
+                      <li><a href="/data_room/publication/index.html">政府刊行物月報</a></li>
+                      <li><a href="/topics/hp/index.html">障害者支援関連リンク集</a></li>
+                      <li><a href="/kids/index.html">キッズページリンク集</a></li>
+                      <li><a href="/topics/link/index.html">官公庁サイト一覧</a></li>
+                      <li><a href="https://nettv.gov-online.go.jp/" target="_blank">政府インターネットテレビ</a></li>
+                    </ul>
+                  </li>
+                  <li class="none" id="navCatLast"><a href="/etc/index.html">政府広報オンラインについて</a></li>
+                  <li class="none"><a href="/mailform/index.html">政府広報に関するご意見</a></li>
+                  <li class="none"><a href="/etc/webaccessibility/index.html">ウェブアクセシビリティ</a></li>
+                  <li class="none"><a href="/etc/index.html#goriyo">当サイトをご利用になる方へ</a></li>
+                  <li class="none"><a href="/privacy/index.html">プライバシーポリシー</a></li>
+                  <li class="none"><a href="/etc/sitemap.html">サイトマップ</a></li>
+                  <li class="none faciliti">
+                    <a
+                      href="/etc/webaccessibility/tool/index.html"
+                      aria-label="ウェブアクセシビリティ閲覧支援ツール「FACIL'iti（ファシリティ）」のページへ"
+                      ><span>閲覧支援ツール</span></a
+                    >
+                  </li>
+                  <li class="none english">
+                    <a href="/eng/index.html" lang="en"><span>English</span></a>
+                  </li>
+                  <li class="none googleSearch">
+                    <div class="inner">
+                      <div class="innerBox">
+                        <!-- Google CSE Search Box Begins  -->
+                        <div class="gcse-searchbox-only"></div>
+                        <!-- Google CSE Search Box Ends -->
+                      </div>
+                    </div>
+                  </li>
+                  <!--li class="notMark none last"><a href="#nav" class="meanmenu-reveal meanclose">閉じる</a></li-->
+                  <li class="notMark none last"><a href="#" id="mean-close" class="mean-close">閉じる</a></li>
+                </ul>
+                <div class="mask"></div>
+                <!--div id="hamburgerClose" tabindex="0" aria-label="メニューを閉じました"></div-->
+              </nav>
+            </div>
+          </div>
+          <!-- /hamburger menu -->
+
+          <figure class="headerLogo">
+            <a href="/index.html" id="hamburgerClose">
+              <img
+                src="/module/common/images/logo_header001.svg"
+                alt="政府広報オンライン　あしたの暮らしをわかりやすく"
+                width="126"
+                height="26"
+              />
+            </a>
+          </figure>
+
+          <!-- Google CSE Search Box Begins  -->
+          <div class="googleSearchBox spDisplayNone tbDisplayNone pxDisplayNone">
+            <div class="gcse-searchbox-only"></div>
+          </div>
+          <!-- Google CSE Search Box Ends -->
+
+          <div class="otherMenu">
+            <ul class="otherList">
+              <li><a href="/mailform/index.html">政府広報に関するご意見</a></li>
+            </ul>
+            <div class="languageList">
+              <!-- 2022.10.21 -->
+              <a href="/eng/index.html" lang="en">English </a>
+            </div>
+            <div class="ptspkToolList">
+              <!-- 2022.10.21 -->
+              <a
+                href="/etc/webaccessibility/tool/index.html"
+                aria-label="ウェブアクセシビリティ閲覧支援ツール「FACIL'iti（ファシリティ）」のページへ"
+                >閲覧支援ツール</a
+              >
+            </div>
+            <ul class="textsizer">
+              <li>文字</li>
+              <li>
+                <span class="small"> <a href="#">小</a></span> <span class="large"> <a href="#">大</a></span>
+              </li>
+            </ul>
+          </div>
+          <!-- /.otherMenu -->
+
+          <div class="navWrap">
+            <div id="navFix">
+              <!-- megamenuNav -->
+              <div class="menu-container">
+                <div class="megaMenu" role="navigation">
+                  <ul>
+                    <li><a href="/index.html" id="megaMenuListTop">トップ</a></li>
+                    <li class="menu-item-has-children" id="megaMenuList001">
+                      <a href="javascript:" id="megaMenuParent001" aria-expanded="false" aria-controls="megaMenu01"
+                        >知りたい分野で探す</a
+                      >
+                      <ul class="sub-menu" aria-hidden="true" id="megaMenu01">
+                        <li><p class="title">知りたい分野で探す</p></li>
+                        <li><a href="/list/ct1_syohi_kankyho_jinken.html">消費者・環境・人権</a></li>
+                        <li><a href="/list/ct1_anzen_bohan.html">安全・防犯</a></li>
+                        <li><a href="/list/ct1_kosodate_kyoiku.html">子育て・教育</a></li>
+                        <li><a href="/list/ct1_kenko_iryo_fukushikaigo.html">健康・医療・福祉介護</a></li>
+                        <li><a href="/list/ct1_saigai_fukko.html">災害・復興</a></li>
+                        <li><a href="/list/ct1_syaho_zei.html">社会保障・税</a></li>
+                        <li><a href="/list/ct1_kokusai_toko_kanko.html">国際・渡航・観光</a></li>
+                        <li><a href="/list/ct1_keizai_keiei_rodo.html">経済・経営・労働</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item-has-children" id="megaMenuList002">
+                      <a href="javascript:" id="megaMenuParent002" aria-expanded="false" aria-controls="megaMenu02"
+                        >このようなかたに</a
+                      >
+                      <ul class="sub-menu" aria-hidden="true" id="megaMenu02">
+                        <li><p class="title">このようなかたに</p></li>
+                        <li><a href="/list/ct1_korei_nokata.html">高齢のかた</a></li>
+                        <li><a href="/list/ct1_syogai_noarukata.html">障害のあるかた</a></li>
+                        <li><a href="/list/ct1_kosodatechu_nokata.html">子育て中のかた</a></li>
+                        <li><a href="/list/ct1_seito_gakusei_nokata.html">生徒・学生のかた</a></li>
+                        <li><a href="/list/ct1_gaikoku_nokata.html">外国のかた</a></li>
+                        <li><a href="/list/ct1_hataraiteiru_kata.html">働いているかた</a></li>
+                        <li><a href="/list/ct1_hatarakitai_kata.html">働きたいかた</a></li>
+                        <li><a href="/list/ct1_jigyosha_nokata.html">事業者のかた</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item-has-children" id="megaMenuList003">
+                      <a href="javascript:" id="megaMenuParent003" aria-expanded="false" aria-controls="megaMenu03"
+                        >コンテンツで探す</a
+                      >
+                      <ul class="sub-menu last" aria-hidden="true" id="megaMenu03">
+                        <li class="findContents">
+                          <p class="title">コンテンツで探す</p>
+                          <ul>
+                            <li><a href="/tokusyu/index.html">特集・キャンペーンサイト</a></li>
+                            <li><a href="/useful/index.html">暮らしに役立つ情報</a></li>
+                            <li><a href="/pr/index.html">メディア別の政府広報</a></li>
+                            <li><a href="/info/index.html">各府省の新着情報</a></li>
+                            <li><a href="/kurashi/index.html">相談窓口・Q＆A</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="/data_room/calendar/index.html">月間・週間</a></li>
+                            <li><a href="/data_room/publication/index.html">政府刊行物月報</a></li>
+                            <li><a href="/topics/hp/index.html">障害者支援関連リンク集</a></li>
+                            <li><a href="/kids/index.html">キッズページリンク集</a></li>
+                            <li><a href="/topics/link/index.html">官公庁サイト一覧</a></li>
+                            <li>
+                              <a href="https://nettv.gov-online.go.jp/" target="_blank">政府インターネットテレビ</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /megamenuNav -->
+
+              <ul class="snsList spDisplayNone tbDisplayNone">
+                <li>
+                  <a href="/sns/twitter.html">
+                    <img
+                      src="https://www.gov-online.go.jp/module/common/images/ico_tw.svg"
+                      alt="政府広報オンラインTwitterのご案内"
+                      width="32"
+                      height="32"
+                  /></a>
+                </li>
+                <li>
+                  <a href="/sns/facebook.html">
+                    <img
+                      src="https://www.gov-online.go.jp/module/common/images/ico_fc.svg"
+                      alt="政府広報オンラインFacebookページのご案内"
+                      width="32"
+                      height="32"
+                  /></a>
+                </li>
+                <li>
+                  <a href="/sns/instagram.html">
+                    <img
+                      src="https://www.gov-online.go.jp/module/common/images/ico_ig.svg"
+                      alt="内閣府政府広報 Instagramページ、Highlighting Japan Instagramページのご案内"
+                      width="32"
+                      height="32"
+                  /></a>
+                </li>
+              </ul>
+              <!-- /.snsList -->
+            </div>
+          </div>
+
+          <div class="headerFinder">
+            <a href="#modal" class="modal" aria-expanded="false" aria-controls="modalWrap">
+              <img
+                src="https://www.gov-online.go.jp/module/common/images/ico_search001.svg"
+                alt="検索"
+                width="32"
+                height="32"
+            /></a>
+          </div>
+          <!-- /.headerFinder -->
+        </div>
+        <!-- #EndLibraryItem -->
+      </header>
+
+      <div id="modal">
+        <div class="modalWrap" id="modalWrap" aria-hidden="ture">
+          <div class="googleSearch">
+            <!-- Google CSE Search Box Begins  -->
+            <div class="gcse-searchbox-only"></div>
+            <!-- Google CSE Search Box Ends -->
+          </div>
+        </div>
+      </div>
+
+      <div class="d_colPageMain">
+        <!-- パンくずリスト -->
+        <div class="crumb">
+          <div class="smartContainer">
+            <!-- InstanceBeginEditable name="breadcrumb" -->
+
+            <ul class="cf">
+              <li class="topPage"><a href="//www.gov-online.go.jp/index.html">トップページ</a></li>
+              <li>お探しのページが見つかりません</li>
+            </ul>
+
+            <!-- /breadcrumb -->
+            <!-- InstanceEndEditable -->
+          </div>
+        </div>
+        <!-- /.crumb -->
+
+        <div class="cf">
+          <main>
+            <div id="mainContents">
+              <div class="smartContainer">
+                <!-- InstanceBeginEditable name="h1" -->
+
+                <h1 class="name">お探しのページが見つかりません</h1>
+
+                <!-- InstanceEndEditable -->
+
+                <!-- InstanceBeginEditable name="EditRegion" -->
+                <p>政府広報オンラインをご覧いただきましてありがとうございます。</p>
+                <p>アクセスしていただいたページは、削除もしくは移動した可能性があります。</p>
+                <p>
+                  大変お手数ですが、アドレス（URL）をご確認の上再度お探しいただくか、<a
+                    href="//www.gov-online.go.jp/index.html"
+                    >トップページ</a
+                  >や<a href="//www.gov-online.go.jp/etc/sitemap.html">サイトマップ</a
+                  >、またはページ上部の「サイト内検索」をご利用ください。
+                </p>
+                <ul>
+                  <li><a href="//www.gov-online.go.jp/index.html">政府広報オンライントップページ</a></li>
+                  <li><a href="//www.gov-online.go.jp/etc/sitemap.html">サイトマップ</a></li>
+                </ul>
+                <!--当ページは特別仕様。テンプレートによるページ更新を行った際は相対パスを絶対パスに変更するための置換をテキストエディタ上で実施。例「src="/」→「src="/」、「href=.."/」→「href="/」-->
+                <!-- InstanceEndEditable -->
+              </div>
+            </div>
+            <!-- /#mainContents -->
+          </main>
+
+          <aside>
+            <!-- InstanceBeginEditable name="side_free_top" -->
+            <!-- InstanceEndEditable --><!-- #BeginLibraryItem "/Library/aside_commom.lbi" -->
+            <div class="asideFirstBlock cf">
+              <div class="accessRankingAside commonAside">
+                <div class="smartContainer">
+                  <!--　↓アクセスランキング-->
+                  <script src="/common/aside/access_ranking.js"></script>
+                  <!--　↑アクセスランキングここまで-->
+                </div>
+              </div>
+              <!-- /.accessRankingAside -->
+
+              <div class="videoRankingAside commonAside">
+                <div class="smartContainer">
+                  <!--　↓動画ランキング-->
+                  <script src="/common/aside/access_ranking_doga.js"></script>
+                  <!--　↑動画ランキングここまで-->
+                </div>
+              </div>
+              <!-- /.videoRankingAside -->
+
+              <div class="koshinAside commonAside">
+                <div class="smartContainer">
+                  <!--　↓更新情報-->
+                  <script src="/common/aside/koshin_joho.js"></script>
+                  <!--　↑更新情報ここまで-->
+                </div>
+              </div>
+              <!-- /.koshinAside -->
+            </div>
+            <!-- /.asideFirstBlock -->
+
+            <div class="asideSecondBlock cf">
+              <div class="ministryAside commonAside">
+                <div class="smartContainer">
+                  <!--　↓各府省の新着情報-->
+                  <script src="/common/aside/ministryNews.js"></script>
+                  <!--　↑各府省の新着情報ここまで-->
+                </div>
+              </div>
+              <!-- /.ministryAside -->
+
+              <div class="otherAside commonAside">
+                <div class="smartContainer">
+                  <!--　↓月間・週間　政府刊行物月報-->
+                  <script src="/common/aside/data_room.js"></script>
+                  <!--　↑月間・週間　政府刊行物月報ここまで-->
+                </div>
+              </div>
+              <!-- /.otherAside -->
+
+              <div class="relatedAside commonAside">
+                <div class="smartContainer">
+                  <h2>関連情報・関連サイト</h2>
+                  <ul class="otherList">
+                    <li>
+                      <a href="https://survey.gov-online.go.jp/" target="_blank" rel="noopener noreferrer">世論調査</a>
+                    </li>
+                    <li>
+                      <a href="https://www.e-gov.go.jp/" target="_blank" rel="noopener noreferrer"
+                        >電子政府の総合窓口 e-Gov[イーガブ]</a
+                      >
+                    </li>
+                    <li><a href="https://www.kantei.go.jp/" target="_blank" rel="noopener noreferrer">首相官邸</a></li>
+                    <li><a href="https://www.cao.go.jp/" target="_blank" rel="noopener noreferrer">内閣府</a></li>
+                    <li><a href="/topics/link/index.html">官公庁サイト一覧</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.relatedAside -->
+            </div>
+            <!-- /.asideSecondBlock -->
+            <!-- #EndLibraryItem --><!-- InstanceBeginEditable name="side_free_bottom" -->
+            <!-- InstanceEndEditable -->
+          </aside>
+        </div>
+      </div>
+      <!-- /.d_colPageMain -->
+
+      <footer>
+        <!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+
+        <div class="footerSiteMap">
+          <div class="smartContainer">
+            <ul class="footerMapList cf">
+              <li>
+                <p>知りたい分野で探す</p>
+                <ul>
+                  <li><a href="/list/ct1_syohi_kankyho_jinken.html">消費者・環境・人権</a></li>
+                  <li><a href="/list/ct1_anzen_bohan.html">安全・防犯</a></li>
+                  <li><a href="/list/ct1_kosodate_kyoiku.html">子育て・教育</a></li>
+                  <li><a href="/list/ct1_kenko_iryo_fukushikaigo.html">健康・医療・福祉介護</a></li>
+                  <li><a href="/list/ct1_saigai_fukko.html">災害・復興</a></li>
+                  <li><a href="/list/ct1_syaho_zei.html">社会保障・税</a></li>
+                  <li><a href="/list/ct1_kokusai_toko_kanko.html">国際・渡航・観光</a></li>
+                  <li><a href="/list/ct1_keizai_keiei_rodo.html">経済・経営・労働</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <p>このようなかたに</p>
+                <ul>
+                  <li><a href="/list/ct1_korei_nokata.html">高齢のかた</a></li>
+                  <li><a href="/list/ct1_syogai_noarukata.html">障害のあるかた</a></li>
+                  <li><a href="/list/ct1_kosodatechu_nokata.html">子育て中のかた</a></li>
+                  <li><a href="/list/ct1_seito_gakusei_nokata.html">生徒・学生のかた</a></li>
+                  <li><a href="/list/ct1_gaikoku_nokata.html">外国のかた</a></li>
+                  <li><a href="/list/ct1_hataraiteiru_kata.html">働いているかた</a></li>
+                  <li><a href="/list/ct1_hatarakitai_kata.html">働きたいかた</a></li>
+                  <li><a href="/list/ct1_jigyosha_nokata.html">事業者のかた</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <p>コンテンツで探す</p>
+                <ul class="cf">
+                  <li><a href="/tokusyu/index.html">特集・キャンペーンサイト</a></li>
+                  <li><a href="/useful/index.html">暮らしに役立つ情報</a></li>
+                  <li><a href="/pr/index.html">メディア別の政府広報</a></li>
+                  <li><a href="/info/index.html">各府省の新着情報</a></li>
+                  <li><a href="/kurashi/index.html">相談窓口・Q＆A</a></li>
+                  <li><a href="/data_room/calendar/index.html">月間・週間</a></li>
+                </ul>
+                <ul>
+                  <li><a href="/data_room/publication/index.html">政府刊行物月報</a></li>
+                  <li><a href="/topics/hp/index.html">障害者支援関連リンク集</a></li>
+                  <li><a href="/kids/index.html">キッズページリンク集</a></li>
+                  <li><a href="/topics/link/index.html">官公庁サイト一覧</a></li>
+                  <li><a href="https://nettv.gov-online.go.jp/" target="_blank">政府インターネットテレビ</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.footerSiteMap -->
+
+        <div class="footerSNS pcDisplayNone pxDisplayNone">
+          <div class="smartContainer">
+            <div class="contents inline_center">
+              <h2>政府広報公式SNS</h2>
+              <ul class="snsList cf">
+                <li>
+                  <a href="/sns/twitter.html">
+                    <img
+                      src="https://www.gov-online.go.jp/module/common/images/ico_tw.svg"
+                      alt="政府広報オンラインTwitterのご案内"
+                      width="32"
+                      height="32"
+                  /></a>
+                </li>
+                <li>
+                  <a href="/sns/facebook.html">
+                    <img
+                      src="https://www.gov-online.go.jp/module/common/images/ico_fc.svg"
+                      alt="政府広報オンラインFacebookページのご案内"
+                      width="32"
+                      height="32"
+                  /></a>
+                </li>
+                <li>
+                  <a href="/sns/instagram.html">
+                    <img
+                      src="https://www.gov-online.go.jp/module/common/images/ico_ig.svg"
+                      alt="内閣府政府広報 Instagramページ、Highlighting Japan Instagramページのご案内"
+                      width="32"
+                      height="32"
+                  /></a>
+                </li>
+              </ul>
+              <!-- /.snsList -->
+            </div>
+          </div>
+        </div>
+
+        <div class="footerMain">
+          <div class="smartContainer cf">
+            <ul class="footerMainList cf">
+              <li><a href="/etc/index.html">政府広報オンラインについて</a></li>
+              <li><a href="/etc/tos.html">リンク・著作権等について</a></li>
+              <li><a href="/mailform/index.html">政府広報に関するご意見</a></li>
+              <li><a href="/etc/webaccessibility/index.html">ウェブアクセシビリティ</a></li>
+              <li><a href="/etc/index.html#goriyo">当サイトをご利用になる方へ</a></li>
+              <li><a href="/privacy/index.html">プライバシーポリシー</a></li>
+              <li><a href="/etc/sitemap.html">サイトマップ</a></li>
+            </ul>
+            <div class="footerMainOther">
+              <p class="name">内閣府大臣官房政府広報室<span class="number">内閣府法人番号 2000012010019</span></p>
+              <p class="address">
+                〒100-8914 東京都千代田区永田町1-6-1 <br class="pcDisplayNone" />TEL.03-5253-2111（代表）
+              </p>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <p lang="en">&copy; 2002 Cabinet Office, Government of Japan</p>
+          </div>
+        </div>
+        <!-- /.footerMain -->
+
+        <!-- #EndLibraryItem -->
+      </footer>
+      <!-- #BeginLibraryItem "/Library/page-top.lbi" -->
+      <div id="pageTop">
+        <a href="#gotoPageTop"
+          ><span>ページトップ<br />に戻る</span></a
+        >
+      </div>
+      <!-- #EndLibraryItem -->
+    </div>
+    <!-- /.contents -->
+
+    <!-- common js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://www.gov-online.go.jp/module/common/js/meanmenu/jquery.meanmenu.js" defer></script>
+    <script src="https://www.gov-online.go.jp/module/common/js/modaal/modaal.min.js" defer></script>
+    <script src="https://www.gov-online.go.jp/module/common/js/jquery.textresizer.min.js" defer></script>
+    <script src="https://www.gov-online.go.jp/js/common_2021.js" defer></script>
+    <script src="https://www.gov-online.go.jp/module/common/js/readmore.min.js" defer></script>
+    <script src="https://www.gov-online.go.jp/module/common/js/picturefill.min.js" defer></script>
+    <script src="https://www.gov-online.go.jp/module/common/js/scripts.min.js?date=202301051100"></script>
+
+    <!-- Google CSE Search Box Begins  -->
+    <script async src="https://cse.google.com/cse.js?cx=006326094960040839070:fg0y4bv1tba"></script>
+    <!-- Google CSE Search Box Ends -->
+
+    <!-- InstanceBeginEditable name="footer_original_script" -->
+
+    <!-- InstanceEndEditable -->
+
+    <!-- User Insight PCDF Code Start :  -->
+    <script>
+      var _uic = _uic || {};
+      var _uih = _uih || {};
+      _uih["id"] = 55652;
+      _uih["lg_id"] = "";
+      _uih["fb_id"] = "";
+      _uih["tw_id"] = "";
+      _uih["uigr_1"] = "";
+      _uih["uigr_2"] = "";
+      _uih["uigr_3"] = "";
+      _uih["uigr_4"] = "";
+      _uih["uigr_5"] = "";
+      _uih["uigr_6"] = "";
+      _uih["uigr_7"] = "";
+      _uih["uigr_8"] = "";
+      _uih["uigr_9"] = "";
+      _uih["uigr_10"] = "";
+      _uic["security_type"] = 1;
+
+      /* DO NOT ALTER BELOW THIS LINE */
+      (function () {
+        var bi = document.createElement("script");
+        bi.type = "text/javascript";
+        bi.async = true;
+        bi.src = "//cs.nakanohito.jp/b3/bi.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bi, s);
+      })();
+    </script>
+    <!-- User Insight PCDF Code End :  -->
+  </body>
+  <!-- InstanceEnd -->
+</html>
