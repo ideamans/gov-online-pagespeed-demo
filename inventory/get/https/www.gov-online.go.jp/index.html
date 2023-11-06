@@ -46,12 +46,17 @@
   <!-- InstanceBeginEditable name="head" -->
   <!-- InstanceEndEditable -->
   <script>
-    (function () {
-      var fs = document.createElement("script");
-      fs.setAttribute("src", "https://cdn.facil-iti.app/tags/faciliti-tag.min.js");
-      fs.dataset.applicationIdentifier = "ac6b5f65-1649-4977-a62e-62fa8f510d4f";
-      document.head.appendChild(fs);
-    })();
+    window.addEventListener('load', function () {
+      console.log('onload');
+      setTimeout(function () {
+        (function () {
+          var fs = document.createElement("script");
+          fs.setAttribute("src", "https://cdn.facil-iti.app/tags/faciliti-tag.min.js");
+          fs.dataset.applicationIdentifier = "ac6b5f65-1649-4977-a62e-62fa8f510d4f";
+          document.head.appendChild(fs);
+        })();
+      }, 0);
+    });
   </script>
 
   <style>
@@ -122,15 +127,19 @@
 <body>
   <!--facebookソーシャルプラグイン用-->
   <script>
-    (function (d, s, id) {
-      var js,
-        fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9";
-      fjs.parentNode.insertBefore(js, fjs);
-    })(document, "script", "facebook-jssdk");
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        (function (d, s, id) {
+          var js,
+            fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9";
+          fjs.parentNode.insertBefore(js, fjs);
+        })(document, "script", "facebook-jssdk");
+      }, 0);
+    });
   </script>
   <noscript>このページはJavaScriptを使用しています。ご使用中のブラウザはJavaScriptが無効になっているか、JavaScriptに対応していません。JavaScriptを有効にするか、JavaScriptが使用可能なブラウザでアクセスして下さい。</noscript><!-- #BeginLibraryItem "/Library/HONBUN.lbi" -->
   <div id="gotoPageTop"></div>
@@ -1115,7 +1124,20 @@
   <script src="module/common/js/scripts.min.js"></script>
 
   <!-- Google CSE Search Box Begins  -->
-  <script async src="https://cse.google.com/cse.js?cx=006326094960040839070:fg0y4bv1tba"></script>
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        (function (d, t) {
+          var el = d.createElement(t),
+            anc = d.getElementsByTagName(t)[0];
+
+          el.async = true;
+          el.src = "https://cse.google.com/cse.js?cx=006326094960040839070:fg0y4bv1tba";
+          anc.parentNode.insertBefore(el, anc);
+        })(document, 'script');
+      }, 0);
+    });
+  </script>
   <!-- Google CSE Search Box Ends -->
 
   <!-- this page' js -->
@@ -1161,33 +1183,37 @@
 
   <!-- User Insight PCDF Code Start :  -->
   <script>
-    var _uic = _uic || {};
-    var _uih = _uih || {};
-    _uih["id"] = 55652;
-    _uih["lg_id"] = "";
-    _uih["fb_id"] = "";
-    _uih["tw_id"] = "";
-    _uih["uigr_1"] = "";
-    _uih["uigr_2"] = "";
-    _uih["uigr_3"] = "";
-    _uih["uigr_4"] = "";
-    _uih["uigr_5"] = "";
-    _uih["uigr_6"] = "";
-    _uih["uigr_7"] = "";
-    _uih["uigr_8"] = "";
-    _uih["uigr_9"] = "";
-    _uih["uigr_10"] = "";
-    _uic["security_type"] = 1;
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var _uic = _uic || {};
+        var _uih = _uih || {};
+        _uih["id"] = 55652;
+        _uih["lg_id"] = "";
+        _uih["fb_id"] = "";
+        _uih["tw_id"] = "";
+        _uih["uigr_1"] = "";
+        _uih["uigr_2"] = "";
+        _uih["uigr_3"] = "";
+        _uih["uigr_4"] = "";
+        _uih["uigr_5"] = "";
+        _uih["uigr_6"] = "";
+        _uih["uigr_7"] = "";
+        _uih["uigr_8"] = "";
+        _uih["uigr_9"] = "";
+        _uih["uigr_10"] = "";
+        _uic["security_type"] = 1;
 
-    /* DO NOT ALTER BELOW THIS LINE */
-    (function () {
-      var bi = document.createElement("script");
-      bi.type = "text/javascript";
-      bi.async = true;
-      bi.src = "//cs.nakanohito.jp/b3/bi.js";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bi, s);
-    })();
+        /* DO NOT ALTER BELOW THIS LINE */
+        (function () {
+          var bi = document.createElement("script");
+          bi.type = "text/javascript";
+          bi.async = true;
+          bi.src = "//cs.nakanohito.jp/b3/bi.js";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bi, s);
+        })();
+      }, 0);
+    });
   </script>
   <!-- User Insight PCDF Code End :  -->
 </body>
