@@ -7,7 +7,7 @@
     "pagespeed-quest": "^0.1.1"
   },
   "scripts": {
-    "playback": "psq lighthouse replay -c 8",
+    "playback": "psq lighthouse playback -c 8",
     "proxy": "psq proxy -p 8000"
   }
 }
