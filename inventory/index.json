@@ -386,8 +386,8 @@
     },
     {
       "method": "get",
-      "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js",
-      "ttfbMs": 667,
+      "url": "https://www.gov-online.go.jp/ajax/libs/jquery/1.11.2/jquery.min.js",
+      "ttfbMs": 100,
       "statusCode": 200,
       "rawHeaders": {
         "accept-ranges": "bytes",
